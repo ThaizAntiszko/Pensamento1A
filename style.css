@@ -3,7 +3,7 @@ body{
 }
 #foto{
     width: 100%;
-    height: 600px;
+    height: 550px;
 }
 .principal{
     background: #a0bbc3;
@@ -11,9 +11,10 @@ body{
 }
 h1{
     text-align: center;
-    background-color: #CCCCCC;
+    background-color: #043233;
     margin-inline-end: 30%;
     margin-inline-start:30%;
+    color:white;
 }
 .titulo-principal{
     padding-left: 20px;
