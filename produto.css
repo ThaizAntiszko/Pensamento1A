@@ -1,5 +1,17 @@
 header{
     background-color: rgb(237, 88, 42);
+    padding:20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 nav li{
     display: inline;
@@ -12,3 +24,33 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+#social{
+    width: 100px;
+    height: 100px;
+}
+#ambiental{
+width: 100px;
+height: 100px;
+}
+#economico{
+    width: 100px;
+    height: 100px;
+}
+.produtos{
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.produtos-descricao{
+font-size: 18px;
+}
+.pilares li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    }
+    .produtos h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
