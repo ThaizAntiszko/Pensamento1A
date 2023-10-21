@@ -1,6 +1,6 @@
 header{
     background-color: rgb(237, 88, 42);
-    padding:20px 0;
+    padding: 20px 0;
 }
 .caixa{
     position: relative;
@@ -9,7 +9,7 @@ header{
 }
 nav{
     position: absolute;
-    top: 0;
+    top: 110px;
     right: 0;
 
 }
@@ -24,24 +24,31 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover{
+    color: rgb(236, 242, 53);
+    text-decoration: underline;
+}
 #social{
     width: 100px;
     height: 100px;
+    padding: 50px 0;
 }
 #ambiental{
 width: 100px;
 height: 100px;
+padding: 50px 0;
 }
 #economico{
     width: 100px;
     height: 100px;
+    padding: 50px 0;
 }
-.produtos{
+.pilares{
     width: 940px;
     margin:0 auto;
     padding: 50px 0;
 }
-.produtos-descricao{
+.pilares-descricao{
 font-size: 18px;
 }
 .pilares li{
@@ -49,8 +56,30 @@ font-size: 18px;
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border: 2px solid #000000;
+    border-radius: 10px;
     }
-    .produtos h2{
+    .pilares li:hover {
+        border-color: rgb(236, 242, 53);;
+    }
+    .pilares li:active {
+        border-color: rgb(5, 82, 27);
+    }
+    .pilares li:hover h2{
+        font-size: 35px;
+    }
+    .pilares h2{
         font-size: 30px;
         font-weight: bold;
+    }
+    footer{
+        text-align: center;
+    }
+    .copyright{
+        font-style: italic;
+        margin: 20px 0 0 ;
     }
